@@ -1,0 +1,6 @@
+tup=('w','r','s','o','u','r','c')
+print(tup)
+listx=list(tup)
+listx.remove('w')
+tup=tuple(listx)
+print(tup)
